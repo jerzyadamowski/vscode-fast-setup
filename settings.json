@@ -1,0 +1,51 @@
+{
+    //"workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "explorer.openEditors.visible": 0,
+    "editor.renderWhitespace": "all",
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "files.insertFinalNewline": true,
+    //"files.trimTrailingWhitespace": true,
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "editor.minimap.enabled": false,
+    "vsicons.projectDetection.disableDetect": true,
+    //"editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "window.title": "${rootName}" ,
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "editor.semanticTokenColorCustomizations": {
+      "enabled": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+    },
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.tslint": true
+    },
+    "window.zoomLevel": 0
+}
