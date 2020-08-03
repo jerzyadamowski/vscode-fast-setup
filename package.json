@@ -22,7 +22,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "cp  './../../Library/Application Support/Code/User/settings.json' settings.json",
-      "pre-push": "cp  './../../Library/Application Support/Code/User/settings.json' settings.json"
+      "pre-push": "git add . && git commit -m 'push' && cp  './../../Library/Application Support/Code/User/settings.json' settings.json"
     }
   }
 }
