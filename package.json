@@ -1,0 +1,27 @@
+{
+  "name": "common-configuration-vscode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerzyadamowski/vscode-fast-setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerzyadamowski/vscode-fast-setup/issues"
+  },
+  "homepage": "https://github.com/jerzyadamowski/vscode-fast-setup#readme",
+  "devDependencies": {
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      
+    }
+  }
+}
