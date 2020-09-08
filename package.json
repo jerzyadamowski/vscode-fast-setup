@@ -21,7 +21,7 @@
   },
   "husky": {
     "hooks": {
-        "pre-commit": "cp  './../../Library/Application Support/Code/User/settings.json' settings.json"
+      "pre-commit": "cp  './../../Library/Application Support/Code/User/settings.json' settings.json"
     }
   }
 }

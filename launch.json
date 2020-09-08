@@ -15,6 +15,15 @@
       "protocol": "inspector"
     },
     {
+      "name": "Ide-runner",
+      "type": "node",
+      "request": "launch",
+      "args": ["${workspaceFolder}/node_modules/.bin/ide-runner"],
+      "cwd": "${workspaceFolder}",
+      "sourceMaps": true,
+      "protocol": "inspector"
+    },
+    {
       "type": "node",
       "request": "launch",
       "name": "Launch Program",

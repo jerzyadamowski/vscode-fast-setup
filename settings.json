@@ -18,7 +18,7 @@
     "workbench.sideBar.location": "left",
     "editor.minimap.enabled": false,
     "vsicons.projectDetection.disableDetect": true,
-    //"editor.tabSize": 2,
+    "editor.tabSize": 2,
     "editor.detectIndentation": false,
     "window.title": "${rootName}" ,
     "typescript.preferences.importModuleSpecifier": "relative",
@@ -42,14 +42,22 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.formatOnSave": true,
     },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
     "[scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
-      },
+        "editor.formatOnSave": true
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust",
+        "editor.formatOnSave": true
+    },
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll.tslint": true
+        "source.fixAll.tslint": true
     },
     "window.zoomLevel": 0,
     "workbench.colorCustomizations": {
@@ -77,5 +85,7 @@
         "selection.background": "#FFA00040",
         "statusBarItem.remoteBackground": "#FFA000"
     },
-    "materialTheme.accent": "Yellow"
+    "materialTheme.accent": "Yellow",
+    "mochaExplorer.files": "tests/**/*.js",
+    "mochaExplorer.require": "ts-node/register"
 }
