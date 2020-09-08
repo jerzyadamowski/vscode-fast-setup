@@ -1,91 +1,67 @@
 {
-    //"workbench.iconTheme": "vscode-icons",
-    "workbench.iconTheme": "eq-material-theme-icons-ocean",
-    "workbench.colorTheme": "Material Theme Ocean High Contrast",
-    "editor.fontFamily": "'Fira Code'",
-    "editor.fontLigatures": true,
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "workbench.settings.enableNaturalLanguageSearch": false,
-    "explorer.openEditors.visible": 0,
-    "editor.renderWhitespace": "all",
-    "editor.smoothScrolling": true,
-    "editor.cursorBlinking": "phase",
-    "editor.cursorSmoothCaretAnimation": true,
-    "files.insertFinalNewline": true,
-    //"files.trimTrailingWhitespace": true,
-    "workbench.activityBar.visible": true,
-    "workbench.sideBar.location": "left",
-    "editor.minimap.enabled": false,
-    "vsicons.projectDetection.disableDetect": true,
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false,
-    "window.title": "${rootName}" ,
-    "typescript.preferences.importModuleSpecifier": "relative",
-    "editor.semanticTokenColorCustomizations": {
-      "enabled": true
-    },
+  //"workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "eq-material-theme-icons-ocean",
+  "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "explorer.openEditors.visible": 0,
+  "editor.renderWhitespace": "all",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "files.insertFinalNewline": true,
+  //"files.trimTrailingWhitespace": true,
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "editor.minimap.enabled": false,
+  "vsicons.projectDetection.disableDetect": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "window.title": "${rootName}",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true,
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true,
-    },
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true,
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true,
-    },
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust",
-        "editor.formatOnSave": true
-    },
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.tslint": true
-    },
-    "window.zoomLevel": 0,
-    "workbench.colorCustomizations": {
-        "activityBarBadge.background": "#FFA000",
-        "activityBar.activeBorder": "#FFA000",
-        "list.activeSelectionForeground": "#FFA000",
-        "list.inactiveSelectionForeground": "#FFA000",
-        "list.highlightForeground": "#FFA000",
-        "scrollbarSlider.activeBackground": "#FFA00050",
-        "editorSuggestWidget.highlightForeground": "#FFA000",
-        "textLink.foreground": "#FFA000",
-        "progressBar.background": "#FFA000",
-        "pickerGroup.foreground": "#FFA000",
-        "tab.activeBorder": "#FFA000",
-        "notificationLink.foreground": "#FFA000",
-        "editorWidget.resizeBorder": "#FFA000",
-        "editorWidget.border": "#FFA000",
-        "settings.modifiedItemIndicator": "#FFA000",
-        "settings.headerForeground": "#FFA000",
-        "panelTitle.activeBorder": "#FFA000",
-        "breadcrumb.activeSelectionForeground": "#FFA000",
-        "menu.selectionForeground": "#FFA000",
-        "menubar.selectionForeground": "#FFA000",
-        "editor.findMatchBorder": "#FFA000",
-        "selection.background": "#FFA00040",
-        "statusBarItem.remoteBackground": "#FFA000"
-    },
-    "materialTheme.accent": "Yellow",
-    "mochaExplorer.files": "tests/**/*.js",
-    "mochaExplorer.require": "ts-node/register"
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust",
+    "editor.formatOnSave": true
+  },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "window.zoomLevel": 0,
+  "workbench.colorCustomizations": {},
+  "materialTheme.accent": "Remove accents",
+  "mochaExplorer.files": "tests/**/*.js",
+  "mochaExplorer.require": "ts-node/register"
 }
