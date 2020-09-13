@@ -62,6 +62,11 @@
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {},
   "materialTheme.accent": "Remove accents",
-  "mochaExplorer.files": "tests/**/*.js",
-  "mochaExplorer.require": "ts-node/register"
+  "mochaExplorer.files": "test/**/*.js",
+  "mochaExplorer.require": "ts-node/register",
+  "mochaExplorer.logpanel":true,
+  "gitProjectManager.baseProjectsFolders": [
+    "/Users/jadamowski/@work",
+    "/Users/jadamowski/@priv"
+  ]
 }
