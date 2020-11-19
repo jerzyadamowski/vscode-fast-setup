@@ -61,6 +61,42 @@
       "args": ["--timeout", "999999", "--colors", "${file}"],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
-    }
+    },
+    {
+      "name": "Chrome launch - experimental",
+      "type": "chrome",
+      "request": "launch",
+      "url": "https://beamer.marten.cloudint.onet",
+      "webRoot": "${workspaceFolder}",
+      "port": 9222,
+      "sourceMaps": true,
+      "smartStep": true,
+      "disableNetworkCache": true,
+      "sourceMapPathOverrides": {
+        "/home/jadamowski/workspace/beamer-frontend/*":"C:/@projects/beamer-frontend/*",
+        "webpack:///./~/*": "${webRoot}/node_modules/*",       // Example: "webpack:///./~/querystring/index.js" -> "/Users/me/project/node_modules/querystring/index.js"
+        "webpack:///./*":   "${webRoot}/*",                    // Example: "webpack:///./src/app.js" -> "/Users/me/project/src/app.js",
+        "webpack:///*":     "*",                               // Example: "webpack:///project/app.ts" -> "/project/app.ts"
+        "webpack:///src/*": "${webRoot}/*",
+      }
+    },
+    {
+      "name": "Chrome attach - experimental",
+      "type": "chrome",
+      "request": "attach",
+      "urlFilter": "https://beamer.marten.cloudint.onet/*",
+      "address": "127.0.0.1",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}",
+      "sourceMapPathOverrides": {
+        "/home/jadamowski/workspace/beamer-frontend/*":"C:/@projects/beamer-frontend/*",
+        "webpack:///./~/*": "${webRoot}/node_modules/*",       // Example: "webpack:///./~/querystring/index.js" -> "/Users/me/project/node_modules/querystring/index.js"
+        "webpack:///./*":   "${webRoot}/*",                    // Example: "webpack:///./src/app.js" -> "/Users/me/project/src/app.js",
+        "webpack:///*":     "*",                               // Example: "webpack:///project/app.ts" -> "/project/app.ts"
+        "webpack:///src/*": "${webRoot}/*",
+      },
+      "sourceMaps": true,
+      "disableNetworkCache": true
+    },
   ]
 }
